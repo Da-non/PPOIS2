@@ -21,11 +21,11 @@
 **Зависимости:** Только стандартная библиотека Python
 
 ----------
-### Структура проекта
+# Структура проекта
 
-postomat_system/
-│
-├── postomat.py 
+*postomat_system/
+*│
+*├── postomat.py 
 ├── test_postomat.py 
 │
 ├── Классы модели:
