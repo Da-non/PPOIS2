@@ -273,8 +273,8 @@
 ```bash
 # Запуск программы
 python postomat.py
-
-### Запуск тестов
+```
+# Запуск тестов
 
 ```bash
 coverage run -m unittest test_postomat.py
