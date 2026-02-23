@@ -525,13 +525,13 @@ python postomat.py
 
 ----
 
-### Запуск тестов
+## Запуск тестов
 
 ```bash
 coverage run -m unittest test_postomat.py
 coverage report -m 
 ```
-### Результаты тестирования
+## Результаты тестирования
 Все 123 теста проходят успешно
 
 <img width="721" height="274" alt="image" src="https://github.com/user-attachments/assets/74cd0163-dc10-4ae2-923b-c105e33858d2" />
