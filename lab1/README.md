@@ -274,5 +274,13 @@
 # Запуск программы
 python postomat.py
 
+### Запуск тестов
+
+```bash
+coverage run -m unittest test_postomat.py
+coverage report -m 
+```
+
+
 
 
