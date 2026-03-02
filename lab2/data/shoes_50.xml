@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <products>
+    <product>
+      <name>Кеды Converse Chuck Taylor All Star</name>
+      <manufacturer>Converse</manufacturer>
+      <unp>600000001</unp>
+      <quantity>45</quantity>
+      <address>ул. Ленина, 45, склад C4, секция А</address>
+    </product>
+    <product>
+      <name>Кеды Vans Old Skool</name>
+      <manufacturer>Vans</manufacturer>
+      <unp>600000002</unp>
+      <quantity>38</quantity>
+      <address>ул. Садовая, 33, склад A2, ряд 1</address>
+    </product>
+    <product>
+      <name>Кроссовки Nike Air Force 1</name>
+      <manufacturer>Nike</manufacturer>
+      <unp>600000003</unp>
+      <quantity>52</quantity>
+      <address>ул. Садовая, 17, склад B5, секция Б</address>
+    </product>
+    <product>
+      <name>Кроссовки Adidas Superstar</name>
+      <manufacturer>Adidas</manufacturer>
+      <unp>600000004</unp>
+      <quantity>47</quantity>
+      <address>ул. Лейма, 25, склад A2, паллет 2</address>
+    </product>
+    <product>
+      <name>Кеды Puma Suede Classic</name>
+      <manufacturer>Puma</manufacturer>
+      <unp>600000005</unp>
+      <quantity>31</quantity>
+      <address>ул. Янки Купалы, 10, склад E1, секция В</address>
+    </product>
+    <product>
+      <name>Кроссовки New Balance 574</name>
+      <manufacturer>New Balance</manufacturer>
+      <unp>600000006</unp>
+      <quantity>29</quantity>
+      <address>пр-т Независимости, 19, склад E1, ячейка 1</address>
+    </product>
+    <product>
+      <name>Кеды Reebok Club C 85</name>
+      <manufacturer>Reebok</manufacturer>
+      <unp>600000007</unp>
+      <quantity>34</quantity>
+      <address>пр-т Победителей, 28, склад E1, паллет 1</address>
+    </product>
+    <product>
+      <name>Кроссовки Asics Gel-Lyte III</name>
+      <manufacturer>Asics</manufacturer>
+      <unp>600000008</unp>
+      <quantity>23</quantity>
+      <address>ул. Зеленая, 43, склад D1, ячейка 2</address>
+    </product>
+    <product>
+      <name>Кеды Fila Disruptor</name>
+      <manufacturer>Fila</manufacturer>
+      <unp>600000009</unp>
+      <quantity>27</quantity>
+      <address>ул. Кожура, 8, склад D5, ряд 3</address>
+    </product>
+    <product>
+      <name>Кроссовки Saucony Jazz Original</name>
+      <manufacturer>Saucony</manufacturer>
+      <unp>600000010</unp>
+      <quantity>19</quantity>
+      <address>пр-т Победителей, 43, склад C1, секция В</address>
+    </product>
+    <product>
+      <name>Кеды Nike SB Dunk Low</name>
+      <manufacturer>Nike</manufacturer>
+      <unp>600000011</unp>
+      <quantity>16</quantity>
+      <address>ул. Зеленая, 18, склад D2, ячейка 2</address>
+    </product>
+    <product>
+      <name>Кроссовки Adidas NMD R1</name>
+      <manufacturer>Adidas</manufacturer>
+      <unp>600000012</unp>
+      <quantity>22</quantity>
+      <address>ул. Сурганова, 40, склад D4, паллет 2</address>
+    </product>
+    <product>
+      <name>Кеды Vans Authentic</name>
+      <manufacturer>Vans</manufacturer>
+      <unp>600000013</unp>
+      <quantity>41</quantity>
+      <address>ул. Мазурова, 37, склад E2, ряд 1</address>
+    </product>
+    <product>
+      <name>Кроссовки Puma RS-X</name>
+      <manufacturer>Puma</manufacturer>
+      <unp>600000014</unp>
+      <quantity>28</quantity>
+      <address>ул. Ленина, 33, склад B2, секция Б</address>
+    </product>
+    <product>
+      <name>Кеды Converse Run Star Hike</name>
+      <manufacturer>Converse</manufacturer>
+      <unp>600000015</unp>
+      <quantity>33</quantity>
+      <address>ул. Барбоскина, 44, склад C1, ряд 3</address>
+    </product>
+    <product>
+      <name>Кроссовки Reebok Classic Leather</name>
+      <manufacturer>Reebok</manufacturer>
+      <unp>600000016</unp>
+      <quantity>37</quantity>
+      <address>ул. Парковая, 5, склад B2, секция Б</address>
+    </product>
+    <product>
+      <name>Кеды New Balance 327</name>
+      <manufacturer>New Balance</manufacturer>
+      <unp>600000017</unp>
+      <quantity>25</quantity>
+      <address>ул. Кустовая, 27, склад D4, ячейка 1</address>
+    </product>
+    <product>
+      <name>Кроссовки Nike Air Max 90</name>
+      <manufacturer>Nike</manufacturer>
+      <unp>600000018</unp>
+      <quantity>42</quantity>
+      <address>ул. Заводская, 48, склад C4, стеллаж 2</address>
+    </product>
+    <product>
+      <name>Кеды Adidas Stan Smith</name>
+      <manufacturer>Adidas</manufacturer>
+      <unp>600000019</unp>
+      <quantity>39</quantity>
+      <address>ул. Широкая, 27, склад A4, секция А</address>
+    </product>
+    <product>
+      <name>Кроссовки Asics Gel-Kayano 14</name>
+      <manufacturer>Asics</manufacturer>
+      <unp>600000020</unp>
+      <quantity>18</quantity>
+      <address>ул. Орловского, 12, склад C5, стеллаж 1</address>
+    </product>
+    <product>
+      <name>Кеды Puma Cali</name>
+      <manufacturer>Puma</manufacturer>
+      <unp>600000021</unp>
+      <quantity>26</quantity>
+      <address>ул. Притыцкого, 28, склад A2, ряд 2</address>
+    </product>
+    <product>
+      <name>Кроссовки Fila Ray Tracer</name>
+      <manufacturer>Fila</manufacturer>
+      <unp>600000022</unp>
+      <quantity>21</quantity>
+      <address>ул. Дрозда, 13, склад B1, стеллаж 3</address>
+    </product>
+    <product>
+      <name>Кеды Vans Sk8-Hi</name>
+      <manufacturer>Vans</manufacturer>
+      <unp>600000023</unp>
+      <quantity>32</quantity>
+      <address>ул. Кустовая, 50, склад B5, ряд 1</address>
+    </product>
+    <product>
+      <name>Кроссовки New Balance 990v5</name>
+      <manufacturer>New Balance</manufacturer>
+      <unp>600000024</unp>
+      <quantity>15</quantity>
+      <address>ул. Немига, 31, склад C2, стеллаж 1</address>
+    </product>
+    <product>
+      <name>Кеды Converse Chuck 70</name>
+      <manufacturer>Converse</manufacturer>
+      <unp>600000025</unp>
+      <quantity>44</quantity>
+      <address>ул. Красная, 37, склад A4, секция А</address>
+    </product>
+    <product>
+      <name>Ботинки Timberland 6-Inch Premium</name>
+      <manufacturer>Timberland</manufacturer>
+      <unp>600000026</unp>
+      <quantity>18</quantity>
+      <address>ул. Якуба Коласа, 50, склад B3, ячейка 3</address>
+    </product>
+    <product>
+      <name>Ботинки Dr. Martens 1460</name>
+      <manufacturer>Dr. Martens</manufacturer>
+      <unp>600000027</unp>
+      <quantity>22</quantity>
+      <address>ул. Гагарина, 34, склад C4, секция В</address>
+    </product>
+    <product>
+      <name>Полуботинки Clarks Desert Boot</name>
+      <manufacturer>Clarks</manufacturer>
+      <unp>600000028</unp>
+      <quantity>16</quantity>
+      <address>ул. Садовая, 7, склад E3, секция А</address>
+    </product>
+    <product>
+      <name>Ботинки Caterpillar Colorado</name>
+      <manufacturer>Caterpillar</manufacturer>
+      <unp>600000029</unp>
+      <quantity>14</quantity>
+      <address>ул. Калинина, 17, склад D1, ячейка 1</address>
+    </product>
+    <product>
+      <name>Полуботинки ECCO Soft 7</name>
+      <manufacturer>ECCO</manufacturer>
+      <unp>600000030</unp>
+      <quantity>19</quantity>
+      <address>ул. Притыцкого, 40, склад A5, ряд 2</address>
+    </product>
+    <product>
+      <name>Ботинки Red Wing Iron Ranger</name>
+      <manufacturer>Red Wing</manufacturer>
+      <unp>600000031</unp>
+      <quantity>8</quantity>
+      <address>ул. Пушкина, 23, склад E3, ячейка 1</address>
+    </product>
+    <product>
+      <name>Полуботинки Geox Nebula</name>
+      <manufacturer>Geox</manufacturer>
+      <unp>600000032</unp>
+      <quantity>23</quantity>
+      <address>ул. Дрозда, 12, склад A3, ячейка 2</address>
+    </product>
+    <product>
+      <name>Ботинки The North Face Back-to-Berkeley</name>
+      <manufacturer>The North Face</manufacturer>
+      <unp>600000033</unp>
+      <quantity>11</quantity>
+      <address>ул. Лейма, 37, склад C1, паллет 3</address>
+    </product>
+    <product>
+      <name>Полуботинки Skechers Memory Foam</name>
+      <manufacturer>Skechers</manufacturer>
+      <unp>600000034</unp>
+      <quantity>37</quantity>
+      <address>ул. Зеленая, 7, склад A2, паллет 3</address>
+    </product>
+    <product>
+      <name>Ботинки Columbia Newton Ridge</name>
+      <manufacturer>Columbia</manufacturer>
+      <unp>600000035</unp>
+      <quantity>13</quantity>
+      <address>ул. Дрозда, 49, склад D4, паллет 2</address>
+    </product>
+    <product>
+      <name>Туфли мужские классические</name>
+      <manufacturer>Baldinini</manufacturer>
+      <unp>600000036</unp>
+      <quantity>12</quantity>
+      <address>ул. Ленина, 33, склад C3, стеллаж 3</address>
+    </product>
+    <product>
+      <name>Лоферы женские на каблуке</name>
+      <manufacturer>Tamaris</manufacturer>
+      <unp>600000037</unp>
+      <quantity>24</quantity>
+      <address>ул. Шоссейная, 44, склад C5, стеллаж 3</address>
+    </product>
+    <product>
+      <name>Туфли женские лодочки</name>
+      <manufacturer>Ralf Ringer</manufacturer>
+      <unp>600000038</unp>
+      <quantity>31</quantity>
+      <address>ул. Кустовая, 45, склад D1, ячейка 1</address>
+    </product>
+    <product>
+      <name>Лоферы мужские с кисточками</name>
+      <manufacturer>Hugo Boss</manufacturer>
+      <unp>600000039</unp>
+      <quantity>9</quantity>
+      <address>ул. Калинина, 49, склад E2, ячейка 2</address>
+    </product>
+    <product>
+      <name>Туфли офисные женские</name>
+      <manufacturer>ECCO</manufacturer>
+      <unp>600000040</unp>
+      <quantity>17</quantity>
+      <address>пр-т Победителей, 10, склад E4, ячейка 1</address>
+    </product>
+    <product>
+      <name>Лоферы на платформе</name>
+      <manufacturer>Vagabond</manufacturer>
+      <unp>600000041</unp>
+      <quantity>21</quantity>
+      <address>ул. Шоссейная, 47, склад B1, ряд 1</address>
+    </product>
+    <product>
+      <name>Туфли мужские замшевые</name>
+      <manufacturer>Loake</manufacturer>
+      <unp>600000042</unp>
+      <quantity>7</quantity>
+      <address>ул. Якуба Коласа, 13, склад B3, ряд 1</address>
+    </product>
+    <product>
+      <name>Лоферы с цепочкой</name>
+      <manufacturer>Guess</manufacturer>
+      <unp>600000043</unp>
+      <quantity>15</quantity>
+      <address>ул. Богдановича, 42, склад C3, ячейка 2</address>
+    </product>
+    <product>
+      <name>Сандалии мужские кожаные</name>
+      <manufacturer>Birkenstock</manufacturer>
+      <unp>600000044</unp>
+      <quantity>26</quantity>
+      <address>ул. Мазурова, 26, склад A4, ряд 2</address>
+    </product>
+    <product>
+      <name>Шлепанцы пляжные резиновые</name>
+      <manufacturer>Havaianas</manufacturer>
+      <unp>600000045</unp>
+      <quantity>58</quantity>
+      <address>ул. Дрозда, 17, склад B3, паллет 3</address>
+    </product>
+    <product>
+      <name>Сандалии женские на платформе</name>
+      <manufacturer>Teva</manufacturer>
+      <unp>600000046</unp>
+      <quantity>33</quantity>
+      <address>ул. Мазурова, 34, склад E2, секция А</address>
+    </product>
+    <product>
+      <name>Шлепанцы домашние</name>
+      <manufacturer>Crocs</manufacturer>
+      <unp>600000047</unp>
+      <quantity>42</quantity>
+      <address>ул. Красная, 15, склад E3, секция А</address>
+    </product>
+    <product>
+      <name>Сандалии спортивные</name>
+      <manufacturer>Keen</manufacturer>
+      <unp>600000048</unp>
+      <quantity>19</quantity>
+      <address>ул. Ленина, 4, склад E1, стеллаж 2</address>
+    </product>
+    <product>
+      <name>Шлепанцы с ремешком</name>
+      <manufacturer>Adidas</manufacturer>
+      <unp>600000049</unp>
+      <quantity>37</quantity>
+      <address>ул. Сурганова, 14, склад A3, ряд 2</address>
+    </product>
+    <product>
+      <name>Сабо женские</name>
+      <manufacturer>Crocs</manufacturer>
+      <unp>600000050</unp>
+      <quantity>28</quantity>
+      <address>ул. Барбоскина, 43, склад E4, секция Б</address>
+    </product>
+  </products>
