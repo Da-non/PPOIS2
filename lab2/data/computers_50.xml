@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <products>
+    <product>
+      <name>Ноутбук Lenovo IdeaPad 3 15ITL6</name>
+      <manufacturer>Lenovo</manufacturer>
+      <unp>100000001</unp>
+      <quantity>15</quantity>
+      <address>ул. Пушкина, 40, склад C1, стеллаж 3</address>
+    </product>
+    <product>
+      <name>Ноутбук ASUS ROG Strix G15</name>
+      <manufacturer>ASUS</manufacturer>
+      <unp>100000002</unp>
+      <quantity>8</quantity>
+      <address>ул. Шоссейная, 36, склад B3, секция В</address>
+    </product>
+    <product>
+      <name>Ноутбук HP Pavilion 15-eg0000</name>
+      <manufacturer>HP</manufacturer>
+      <unp>100000003</unp>
+      <quantity>12</quantity>
+      <address>ул. Притыцкого, 14, склад A2, стеллаж 2</address>
+    </product>
+    <product>
+      <name>Ноутбук Dell XPS 13 9310</name>
+      <manufacturer>Dell</manufacturer>
+      <unp>100000004</unp>
+      <quantity>5</quantity>
+      <address>пр-т Независимости, 37, склад C1, паллет 2</address>
+    </product>
+    <product>
+      <name>Ноутбук Acer Aspire 5 A515</name>
+      <manufacturer>Acer</manufacturer>
+      <unp>100000005</unp>
+      <quantity>20</quantity>
+      <address>ул. Веры Хоружей, 13, склад E2, секция В</address>
+    </product>
+    <product>
+      <name>Ноутбук MSI Modern 14</name>
+      <manufacturer>MSI</manufacturer>
+      <unp>100000006</unp>
+      <quantity>7</quantity>
+      <address>ул. Широкая, 35, склад C3, стеллаж 3</address>
+    </product>
+    <product>
+      <name>Ноутбук Huawei MateBook D15</name>
+      <manufacturer>Huawei</manufacturer>
+      <unp>100000007</unp>
+      <quantity>10</quantity>
+      <address>ул. Якуба Коласа, 13, склад E5, ряд 1</address>
+    </product>
+    <product>
+      <name>Ноутбук Apple MacBook Air M1</name>
+      <manufacturer>Apple</manufacturer>
+      <unp>100000008</unp>
+      <quantity>6</quantity>
+      <address>ул. Веры Хоружей, 45, склад D4, стеллаж 2</address>
+    </product>
+    <product>
+      <name>Ноутбук Microsoft Surface Laptop 4</name>
+      <manufacturer>Microsoft</manufacturer>
+      <unp>100000009</unp>
+      <quantity>4</quantity>
+      <address>ул. Притыцкого, 5, склад B1, ячейка 1</address>
+    </product>
+    <product>
+      <name>Ноутбук Razer Blade 15</name>
+      <manufacturer>Razer</manufacturer>
+      <unp>100000010</unp>
+      <quantity>3</quantity>
+      <address>ул. Сурганова, 15, склад B1, паллет 1</address>
+    </product>
+    <product>
+      <name>Ноутбук Xiaomi Mi Notebook Pro</name>
+      <manufacturer>Xiaomi</manufacturer>
+      <unp>100000011</unp>
+      <quantity>9</quantity>
+      <address>ул. Красная, 50, склад B3, ряд 2</address>
+    </product>
+    <product>
+      <name>Ноутбук ASUS TUF Gaming F15</name>
+      <manufacturer>ASUS</manufacturer>
+      <unp>100000012</unp>
+      <quantity>11</quantity>
+      <address>ул. Садовая, 15, склад B1, секция В</address>
+    </product>
+    <product>
+      <name>Ноутбук Lenovo ThinkPad X1 Carbon</name>
+      <manufacturer>Lenovo</manufacturer>
+      <unp>100000013</unp>
+      <quantity>7</quantity>
+      <address>ул. Парковая, 44, склад E2, ячейка 3</address>
+    </product>
+    <product>
+      <name>Ноутбук HP EliteBook 840</name>
+      <manufacturer>HP</manufacturer>
+      <unp>100000014</unp>
+      <quantity>5</quantity>
+      <address>пр-т Победителей, 39, склад C1, ряд 3</address>
+    </product>
+    <product>
+      <name>Ноутбук Dell Latitude 7430</name>
+      <manufacturer>Dell</manufacturer>
+      <unp>100000015</unp>
+      <quantity>4</quantity>
+      <address>ул. Новая, 40, склад A1, ряд 1</address>
+    </product>
+    <product>
+      <name>Монитор Dell UltraSharp U2723QE</name>
+      <manufacturer>Dell</manufacturer>
+      <unp>200000001</unp>
+      <quantity>12</quantity>
+      <address>ул. Зеленая, 39, склад A3, стеллаж 1</address>
+    </product>
+    <product>
+      <name>Монитор Samsung Odyssey G7</name>
+      <manufacturer>Samsung</manufacturer>
+      <unp>200000002</unp>
+      <quantity>8</quantity>
+      <address>ул. Парковая, 48, склад A5, стеллаж 1</address>
+    </product>
+    <product>
+      <name>Монитор LG 27GN950-B</name>
+      <manufacturer>LG</manufacturer>
+      <unp>200000003</unp>
+      <quantity>5</quantity>
+      <address>ул. Немига, 24, склад D4, стеллаж 3</address>
+    </product>
+    <product>
+      <name>Монитор ASUS ROG Swift PG279Q</name>
+      <manufacturer>ASUS</manufacturer>
+      <unp>200000004</unp>
+      <quantity>4</quantity>
+      <address>ул. Притыцкого, 10, склад B3, секция Б</address>
+    </product>
+    <product>
+      <name>Монитор Acer Predator XB273U</name>
+      <manufacturer>Acer</manufacturer>
+      <unp>200000005</unp>
+      <quantity>6</quantity>
+      <address>ул. Новая, 25, склад E1, секция Б</address>
+    </product>
+    <product>
+      <name>Монитор BenQ PD3220U</name>
+      <manufacturer>BenQ</manufacturer>
+      <unp>200000006</unp>
+      <quantity>3</quantity>
+      <address>ул. Барбоскина, 24, склад B2, секция Б</address>
+    </product>
+    <product>
+      <name>Монитор Philips 346B1C</name>
+      <manufacturer>Philips</manufacturer>
+      <unp>200000007</unp>
+      <quantity>7</quantity>
+      <address>ул. Кирова, 32, склад B1, паллет 1</address>
+    </product>
+    <product>
+      <name>Монитор ViewSonic VP3881</name>
+      <manufacturer>ViewSonic</manufacturer>
+      <unp>200000008</unp>
+      <quantity>4</quantity>
+      <address>ул. Зеленая, 8, склад D2, ряд 3</address>
+    </product>
+    <product>
+      <name>Монитор Iiyama ProLite</name>
+      <manufacturer>Iiyama</manufacturer>
+      <unp>200000009</unp>
+      <quantity>9</quantity>
+      <address>ул. Парковая, 35, склад E4, паллет 1</address>
+    </product>
+    <product>
+      <name>Монитор AOC U34E2M</name>
+      <manufacturer>AOC</manufacturer>
+      <unp>200000010</unp>
+      <quantity>11</quantity>
+      <address>пр-т Независимости, 36, склад E1, стеллаж 2</address>
+    </product>
+    <product>
+      <name>Клавиатура Logitech MX Mechanical</name>
+      <manufacturer>Logitech</manufacturer>
+      <unp>300000001</unp>
+      <quantity>35</quantity>
+      <address>ул. Веры Хоружей, 24, склад B2, паллет 3</address>
+    </product>
+    <product>
+      <name>Клавиатура Razer BlackWidow V3</name>
+      <manufacturer>Razer</manufacturer>
+      <unp>300000002</unp>
+      <quantity>28</quantity>
+      <address>ул. Лейма, 39, склад D5, стеллаж 1</address>
+    </product>
+    <product>
+      <name>Клавиатура Corsair K70 RGB</name>
+      <manufacturer>Corsair</manufacturer>
+      <unp>300000003</unp>
+      <quantity>19</quantity>
+      <address>ул. Орловского, 28, склад A3, паллет 3</address>
+    </product>
+    <product>
+      <name>Клавиатура Keychron K2</name>
+      <manufacturer>Keychron</manufacturer>
+      <unp>300000004</unp>
+      <quantity>22</quantity>
+      <address>пр-т Независимости, 7, склад B4, паллет 1</address>
+    </product>
+    <product>
+      <name>Клавиатура Ducky One 2</name>
+      <manufacturer>Ducky</manufacturer>
+      <unp>300000005</unp>
+      <quantity>16</quantity>
+      <address>ул. Новая, 47, склад E1, ячейка 3</address>
+    </product>
+    <product>
+      <name>Клавиатура HyperX Alloy Origins</name>
+      <manufacturer>HyperX</manufacturer>
+      <unp>300000006</unp>
+      <quantity>31</quantity>
+      <address>ул. Красная, 13, склад B1, стеллаж 2</address>
+    </product>
+    <product>
+      <name>Клавиатура SteelSeries Apex Pro</name>
+      <manufacturer>SteelSeries</manufacturer>
+      <unp>300000007</unp>
+      <quantity>14</quantity>
+      <address>ул. Орловского, 32, склад C5, секция А</address>
+    </product>
+    <product>
+      <name>Клавиатура Logitech G915</name>
+      <manufacturer>Logitech</manufacturer>
+      <unp>300000008</unp>
+      <quantity>17</quantity>
+      <address>ул. Немига, 10, склад D2, секция А</address>
+    </product>
+    <product>
+      <name>Клавиатура Apple Magic Keyboard</name>
+      <manufacturer>Apple</manufacturer>
+      <unp>300000009</unp>
+      <quantity>12</quantity>
+      <address>ул. Притыцкого, 21, склад D2, ряд 2</address>
+    </product>
+    <product>
+      <name>Клавиатура Microsoft Designer</name>
+      <manufacturer>Microsoft</manufacturer>
+      <unp>300000010</unp>
+      <quantity>25</quantity>
+      <address>ул. Гагарина, 28, склад D5, секция А</address>
+    </product>
+    <product>
+      <name>Мышь Logitech MX Master 3S</name>
+      <manufacturer>Logitech</manufacturer>
+      <unp>400000001</unp>
+      <quantity>45</quantity>
+      <address>ул. Широкая, 36, склад B4, стеллаж 3</address>
+    </product>
+    <product>
+      <name>Мышь Razer DeathAdder V2</name>
+      <manufacturer>Razer</manufacturer>
+      <unp>400000002</unp>
+      <quantity>52</quantity>
+      <address>ул. Янки Купалы, 15, склад E2, ячейка 3</address>
+    </product>
+    <product>
+      <name>Мышь SteelSeries Rival 600</name>
+      <manufacturer>SteelSeries</manufacturer>
+      <unp>400000003</unp>
+      <quantity>31</quantity>
+      <address>ул. Гагарина, 39, склад C3, секция Б</address>
+    </product>
+    <product>
+      <name>Мышь Corsair Dark Core</name>
+      <manufacturer>Corsair</manufacturer>
+      <unp>400000004</unp>
+      <quantity>27</quantity>
+      <address>ул. Сурганова, 34, склад D2, стеллаж 1</address>
+    </product>
+    <product>
+      <name>Мышь Logitech G502 Hero</name>
+      <manufacturer>Logitech</manufacturer>
+      <unp>400000005</unp>
+      <quantity>38</quantity>
+      <address>ул. Советская, 30, склад C1, паллет 2</address>
+    </product>
+    <product>
+      <name>Мышь ASUS ROG Gladius</name>
+      <manufacturer>ASUS</manufacturer>
+      <unp>400000006</unp>
+      <quantity>23</quantity>
+      <address>пр-т Победителей, 37, склад B5, паллет 3</address>
+    </product>
+    <product>
+      <name>Мышь HyperX Pulsefire</name>
+      <manufacturer>HyperX</manufacturer>
+      <unp>400000007</unp>
+      <quantity>34</quantity>
+      <address>ул. Дрозда, 24, склад E4, стеллаж 3</address>
+    </product>
+    <product>
+      <name>Мышь Apple Magic Mouse</name>
+      <manufacturer>Apple</manufacturer>
+      <unp>400000008</unp>
+      <quantity>19</quantity>
+      <address>ул. Зеленая, 20, склад D3, ячейка 1</address>
+    </product>
+    <product>
+      <name>Мышь Microsoft Arc Mouse</name>
+      <manufacturer>Microsoft</manufacturer>
+      <unp>400000009</unp>
+      <quantity>16</quantity>
+      <address>ул. Немига, 36, склад A2, ряд 2</address>
+    </product>
+    <product>
+      <name>Мышь Zowie EC2</name>
+      <manufacturer>Zowie</manufacturer>
+      <unp>400000010</unp>
+      <quantity>21</quantity>
+      <address>пр-т Независимости, 9, склад A5, паллет 2</address>
+    </product>
+    <product>
+      <name>Видеокарта MSI RTX 4080</name>
+      <manufacturer>MSI</manufacturer>
+      <unp>500000001</unp>
+      <quantity>3</quantity>
+      <address>ул. Садовая, 32, склад B1, ячейка 2</address>
+    </product>
+    <product>
+      <name>Видеокарта ASUS RTX 4070 Ti</name>
+      <manufacturer>ASUS</manufacturer>
+      <unp>500000002</unp>
+      <quantity>5</quantity>
+      <address>ул. Новая, 48, склад C2, ячейка 1</address>
+    </product>
+    <product>
+      <name>Процессор Intel Core i9-13900K</name>
+      <manufacturer>Intel</manufacturer>
+      <unp>500000003</unp>
+      <quantity>12</quantity>
+      <address>ул. Дрозда, 35, склад B2, паллет 1</address>
+    </product>
+    <product>
+      <name>Процессор AMD Ryzen 9 7950X</name>
+      <manufacturer>AMD</manufacturer>
+      <unp>500000004</unp>
+      <quantity>10</quantity>
+      <address>ул. Шоссейная, 21, склад E3, паллет 3</address>
+    </product>
+    <product>
+      <name>Оперативная память Corsair 32GB</name>
+      <manufacturer>Corsair</manufacturer>
+      <unp>500000005</unp>
+      <quantity>25</quantity>
+      <address>ул. Богдановича, 21, склад D1, стеллаж 3</address>
+    </product>
+  </products>
