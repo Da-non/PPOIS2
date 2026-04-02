@@ -9,6 +9,7 @@ class MainController:
         self.model = ProductModel()
         self.view = MainWindow(root)
         
+        # Устанавливаем callback функции
         self.view.set_callbacks(
             add_cb=self.add_product,
             edit_cb=self.edit_product,
@@ -87,8 +88,18 @@ class MainController:
             product = self.model.products[global_index]
             if self.view.confirm_deletion(1):
                 self.model.delete_product(global_index)
+                # Корректируем текущую страницу после удаления
+                self._adjust_page_after_deletion()
                 self.refresh_view()
                 self.view.update_status(f"Товар '{product.name}' удален")
+                
+    def _adjust_page_after_deletion(self):
+        """Корректировка текущей страницы после удаления"""
+        total_pages = (len(self.model.products) + self.model.items_per_page - 1) // self.model.items_per_page
+        if self.model.current_page >= total_pages and self.model.current_page > 0:
+            self.model.current_page = total_pages - 1
+            if self.model.current_page < 0:
+                self.model.current_page = 0
                 
     def open_search_dialog(self):
         """Открытие диалога поиска"""
@@ -98,27 +109,31 @@ class MainController:
     def open_delete_dialog(self):
         """Открытие диалога удаления с предварительным просмотром"""
         dialog = DeleteDialog(self.view.root, self.model)
-        products_to_delete = dialog.show()
+        indices_to_delete = dialog.show()
     
-        if products_to_delete:
-        # Удаляем каждый выбранный товар
-         deleted_count = 0
-        for product in products_to_delete:
-            # Находим индекс товара в модели
-            for i, p in enumerate(self.model.products):
-                if (p.name == product.name and 
-                    p.manufacturer == product.manufacturer and 
-                    p.unp == product.unp and
-                    p.quantity == product.quantity and
-                    p.address == product.address):
-                    self.model.delete_product(i)
+        if indices_to_delete and len(indices_to_delete) > 0:
+            # Удаляем товары по индексам (уже отсортированы в обратном порядке)
+            deleted_count = 0
+            deleted_products = []
+            
+            for idx in indices_to_delete:
+                if 0 <= idx < len(self.model.products):
+                    deleted_products.append(self.model.products[idx].name)
+                    self.model.delete_product(idx)
                     deleted_count += 1
-                    break
-        
-        # Показываем сообщение о результате
-        self.view.show_message("Удаление завершено", f"✅ Успешно удалено {deleted_count} записей")
-        self.refresh_view()
-        self.view.update_status(f"Удалено {deleted_count} записей")
+            
+            # Показываем сообщение о результате
+            if deleted_count > 0:
+                self.view.show_message(
+                    "Удаление завершено", 
+                    f"✅ Успешно удалено {deleted_count} записей"
+                )
+                # Корректируем текущую страницу после удаления
+                self._adjust_page_after_deletion()
+                self.refresh_view()
+                self.view.update_status(f"Удалено {deleted_count} записей")
+            else:
+                self.view.show_message("Ошибка", "Не удалось удалить выбранные записи")
                 
     def save_data(self, filename):
         """Сохранение данных в файл"""
@@ -150,6 +165,7 @@ class MainController:
                 
     def change_page(self, page):
         """Смена страницы"""
-        if 0 <= page < (len(self.model.products) + self.model.items_per_page - 1) // self.model.items_per_page:
+        total_pages = (len(self.model.products) + self.model.items_per_page - 1) // self.model.items_per_page
+        if 0 <= page < total_pages:
             self.model.current_page = page
             self.refresh_view()
