@@ -1,3 +1,8 @@
+import tkinter as tk
+from tkinter import ttk, messagebox
+from typing import Dict, List, Optional
+from model import Product
+
 class ProductDialog:
     """Диалог добавления/редактирования товара"""
     
@@ -5,13 +10,14 @@ class ProductDialog:
         self.result = None
         self.product = product or Product('', '', '', 0, '')
         
-        # Создание окна
+        # Создание окна - УВЕЛИЧЕННЫЙ РАЗМЕР
         self.dialog = tk.Toplevel(parent)
         self.dialog.title("Товар" if not product else "Редактирование товара")
-        self.dialog.geometry("450x400")
+        self.dialog.geometry("550x500")
         self.dialog.resizable(False, False)
         self.dialog.transient(parent)
         self.dialog.grab_set()
+        
         self.setup_ui()
         
         # Центрируем окно
@@ -27,55 +33,55 @@ class ProductDialog:
         
         # Название товара
         tk.Label(main_frame, text="Название товара:*", font=('Arial', 10, 'bold')).grid(row=0, column=0, sticky=tk.W, pady=5)
-        self.name_entry = tk.Entry(main_frame, width=40, font=('Arial', 10))
+        self.name_entry = tk.Entry(main_frame, width=45, font=('Arial', 10))
         self.name_entry.insert(0, self.product.name)
         self.name_entry.grid(row=0, column=1, pady=5)
         
         # Производитель
         tk.Label(main_frame, text="Производитель:*", font=('Arial', 10, 'bold')).grid(row=1, column=0, sticky=tk.W, pady=5)
-        self.manufacturer_entry = tk.Entry(main_frame, width=40, font=('Arial', 10))
+        self.manufacturer_entry = tk.Entry(main_frame, width=45, font=('Arial', 10))
         self.manufacturer_entry.insert(0, self.product.manufacturer)
         self.manufacturer_entry.grid(row=1, column=1, pady=5)
         
         # УНП (с проверкой)
         tk.Label(main_frame, text="УНП производителя:*", font=('Arial', 10, 'bold')).grid(row=2, column=0, sticky=tk.W, pady=5)
         unp_frame = tk.Frame(main_frame)
-        unp_frame.grid(row=2, column=1, pady=5)
+        unp_frame.grid(row=2, column=1, pady=5, sticky=tk.W)
         
         self.unp_entry = tk.Entry(unp_frame, width=30, font=('Arial', 10))
         self.unp_entry.insert(0, self.product.unp)
         self.unp_entry.pack(side=tk.LEFT)
         
-        self.unp_status = tk.Label(unp_frame, text="", font=('Arial', 8))
-        self.unp_status.pack(side=tk.LEFT, padx=5)
+        self.unp_status = tk.Label(unp_frame, text="", font=('Arial', 9), width=25, anchor=tk.W)
+        self.unp_status.pack(side=tk.LEFT, padx=10)
         
         # Привязка проверки УНП
         self.unp_entry.bind('<KeyRelease>', self.validate_unp)
         
         # Количество
         tk.Label(main_frame, text="Количество на складе:*", font=('Arial', 10, 'bold')).grid(row=3, column=0, sticky=tk.W, pady=5)
-        self.quantity_spin = tk.Spinbox(main_frame, from_=0, to=10000, width=38, font=('Arial', 10))
+        self.quantity_spin = tk.Spinbox(main_frame, from_=0, to=10000, width=43, font=('Arial', 10))
         self.quantity_spin.delete(0, tk.END)
         self.quantity_spin.insert(0, str(self.product.quantity))
         self.quantity_spin.grid(row=3, column=1, pady=5)
         
         # Адрес склада
         tk.Label(main_frame, text="Адрес склада:*", font=('Arial', 10, 'bold')).grid(row=4, column=0, sticky=tk.W, pady=5)
-        self.address_entry = tk.Entry(main_frame, width=40, font=('Arial', 10))
+        self.address_entry = tk.Entry(main_frame, width=45, font=('Arial', 10))
         self.address_entry.insert(0, self.product.address)
         self.address_entry.grid(row=4, column=1, pady=5)
         
         # Подсказка об обязательных полях
-        tk.Label(main_frame, text="* - обязательные поля", font=('Arial', 8, 'italic'), fg='gray').grid(row=5, column=0, columnspan=2, pady=5)
+        tk.Label(main_frame, text="* - обязательные поля", font=('Arial', 8, 'italic'), fg='gray').grid(row=5, column=0, columnspan=2, pady=10)
         
         # Кнопки
         button_frame = tk.Frame(main_frame)
         button_frame.grid(row=6, column=0, columnspan=2, pady=20)
         
-        tk.Button(button_frame, text="OK", command=self.ok_clicked, width=10,
-                 bg='#4CAF50', fg='white', font=('Arial', 10, 'bold')).pack(side=tk.LEFT, padx=5)
-        tk.Button(button_frame, text="Отмена", command=self.cancel_clicked, width=10,
-                 bg='#f44336', fg='white', font=('Arial', 10, 'bold')).pack(side=tk.LEFT, padx=5)
+        tk.Button(button_frame, text="OK", command=self.ok_clicked, width=12,
+                 bg='#4CAF50', fg='white', font=('Arial', 10, 'bold')).pack(side=tk.LEFT, padx=10)
+        tk.Button(button_frame, text="Отмена", command=self.cancel_clicked, width=12,
+                 bg='#f44336', fg='white', font=('Arial', 10, 'bold')).pack(side=tk.LEFT, padx=10)
         
         # Привязка Enter и Escape
         self.dialog.bind('<Return>', lambda e: self.ok_clicked())
